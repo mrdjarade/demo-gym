@@ -1,0 +1,1009 @@
+@font-face { font-family: "Poppins"; src: url("Poppins-Regular.ttf"); }
+
+
+body {
+	margin: 0;
+	font-family: "Poppins";
+}
+
+header {
+	background-image: url("images/pozadina.jpg");
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+nav{
+	width: 85%;
+  	top:30px;
+  	margin-left: auto;
+  	margin-right: auto;
+	background-color: #0a0a0a;
+	position: fixed; 
+    display: flex;
+    justify-content: flex-end;
+    z-index: 99;
+
+}
+nav ul li {
+	list-style: none;
+	text-decoration:none;
+	display: inline;
+	margin: 10px;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px; 
+}
+
+a {
+	text-decoration:none;
+	color: white;
+}
+
+
+nav ul li a:hover {
+	color: #f45f57;
+}
+
+.logo {
+	margin-right: 350px;
+}
+
+.join {
+	background-color: #f4544c;
+	display: flex;
+	padding-left: 10px;
+	padding-right: 10px;
+	align-items: center;
+}
+
+.join:hover {
+	background-color: #f45f57;
+}
+
+.about{
+	width: 100%;
+  	margin-left: auto;
+  	margin-right: auto;
+	background-color: #0a0a0a;
+	position: fixed; 
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+    top: 0px;
+}
+
+
+.naslov {
+	padding-top: 15%;
+}
+
+h1 {
+	color: white;
+	font-size: 80px;
+	margin-bottom: 0;
+}
+
+header div p {
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+}
+
+header div {
+	text-align: center;
+}
+
+.button {
+	background-color:#f4544c;
+	padding: 10px; 
+}
+
+.button:hover {
+	background-color: #f45f57;
+}
+
+.pocetak {
+	text-align: center;
+	padding: 50px;
+}
+
+.pocetak h2 {
+	margin-top: 50px;
+}
+
+.pocetak h2 span {
+	color: #f4544c;
+}
+
+.pocetak p {
+	color:#5e5e5e;
+}
+
+.kartice{
+	display: flex;
+	justify-content: center;
+}
+
+.kartice div {
+	width: 33.333%;
+}
+
+.packages {
+	background-image: url("images/1.jpg");
+}
+
+.paketi p {
+	color: white;
+}
+
+.classes {
+	background-image: url("images/2.jpg");
+	padding: 30px;
+	position: relative;
+}
+
+.facility {
+	background-image: url("images/3.jpg");
+	padding: 30px;
+	position: relative;
+}
+
+.button1 {
+	background-color: black;
+	padding: 10px;
+}
+
+.classes h2 {
+	color: white;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.classes p {
+	color: white;
+}
+
+.classes1 div p {
+	margin-top: 0;
+}
+
+.classes1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.classes ul li {
+	color: white;
+	display: flex;
+	margin-top: 10px;
+
+}
+
+.classes ul li p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.classes ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.classes ul li img {
+	margin-right: 10px;
+}
+
+
+.slicice {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+}
+
+.slicice div {
+	text-align: center;
+	width: 33.333%;
+	margin: 20px;
+}
+
+.slicice div p {
+	color: #5e5e5e;
+	font-size: 14px;
+	padding-bottom: 10px;
+}
+
+.packages {
+	padding: 30px;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+.packages .overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background: linear-gradient(to right, rgb(244, 84, 76) 0%, rgba(244, 84, 76, 0.12) 100%);
+}
+
+.packages h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 10;
+	color: white;
+}
+
+.packages div {
+	position: relative;
+	z-index: 10;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 20px;
+}
+
+.packages div ul {
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 0;
+}
+
+.packages div ul li {
+	color: white;
+	margin-top: 10px;
+}
+
+.button1 {
+	position: absolute;
+	margin-top:30px;
+	background-color: black;
+	padding: 10px;
+	z-index: 10;
+	bottom: 25px;
+}
+
+.facility ul li {
+	color: white;
+	display: flex;
+	margin-top: 10px;
+
+}
+
+.facility ul li p {
+	margin: 0;
+	margin-left: 10px;
+}
+
+.facility ul {
+	list-style: none;
+	position: relative;
+	z-index: 10;
+	padding-left: 0;
+}
+
+
+.facility ul li img {
+	margin-right: 10px;
+}
+
+.facility h2 {
+	color:white;
+	position: relative;
+	z-index: 10;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.facility .overlay {
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	bottom: 0;
+	background: linear-gradient(to right, rgb(244, 84, 76) 0%, rgba(244, 84, 76, 0.12) 100%);
+}
+
+.quote {
+	background-color: #0a0a0a;
+	display: flex;
+	justify-content: center;
+}
+
+.quote p {
+	color: #c4c7ca;
+	font-size: 17px;
+}
+
+.quote div img {
+	width: 100%;
+}
+
+.citat {
+	padding: 40px;
+	padding-top: 80px;
+}
+
+blockquote {
+	color: white;
+}
+
+.resources{
+	background-image: url("images/resources.jpg");
+	width: 33.333%;
+	padding: 50px;
+	position: relative;
+}
+
+.resources h2 {
+	color: white;
+	margin-top: 0px;
+	position: relative;
+	z-index: 10;
+}
+
+.resources p {
+	color: white;
+	position: relative;
+	z-index: 10;
+}
+
+.hours ul {
+	list-style: none;
+	margin-top: 0;
+	position: relative;
+	z-index: 10;
+}
+
+.hours ul li {
+	color: white;
+}
+
+.hours {
+	background-image: url("images/working-hour.jpg");
+	width: 33.333%;
+	padding: 50px;
+	position: relative;
+}
+
+.vreme {
+	display: flex;
+}
+
+.hours h2 {
+	color: white;
+	margin-top: 0;
+	position: relative;
+	z-index: 10;
+}
+
+.liste {
+	display: flex;
+	justify-content: space-between;
+}
+
+.liste ul {
+	padding-left: 0;
+}
+
+.instagram {
+	background-image: url("images/instagram.jpg");
+	width: 20%;
+	background-size: cover;
+}
+
+.zena {
+	background-image: url("images/zena.jpg");
+	width: 20%;
+	background-size: cover;
+}
+
+.resources .overlaay{
+	background-color: rgba(0, 0, 0,0.5);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+}
+
+.hours .overlaay{
+	background-color: rgba(0, 0, 0,0.5);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+}
+
+.map {
+	position: relative;
+}
+
+.map .overlaay {
+	background-color: rgba(0, 0, 0,0.8);
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+}
+
+footer {
+	background-color: #0e0e0e;
+	text-align: center;
+	padding: 30px;
+}
+
+footer p {
+	color: #777;
+	margin-bottom: 0;
+	font-size: 14px;
+}
+
+footer i {
+	color: white;
+	margin:10px;
+}
+
+footer i:hover {
+	color: #777;
+}
+
+footer span {
+	color: white;
+}
+
+/*sledeca strana ABOUT*/
+
+.aboutus h2{
+	padding-top: 75px;
+	color: #f4544c;
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 30px;
+}
+
+.aboutus h4{
+	color: #0a0a0a;
+	font-size: 25px;
+	margin-top: 0px;
+}
+
+.aboutus p{
+	color: #5e5e5e;
+	font-size: 13px;
+}
+
+.aboutus {
+	margin-left: 50px;
+}
+
+.forma {
+	background-color:#f4544c; 
+	margin-top: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 20px;
+	width: 20%;
+}
+
+.forma h4 {
+	color:white;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.forma p{
+	color: white;
+	font-size: 0.9em;
+	margin-top: 0;
+}
+
+.forma form {
+	margin-bottom: 20px;
+}
+
+.forma form input {
+	margin-bottom: 10px;
+}
+
+.forma a {
+	padding: 10px;
+	background-color: black;
+}
+
+.uvod {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyus {
+	background-image: url("images/about-us.jpg");
+	background-position: 50% 112px;
+	background-attachment: fixed;
+	padding: 30px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.whyus .sadrzaj {
+	margin-right: 100px;
+}
+
+.whyus .liste1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyus h2{
+	color: white;
+	font-size: 25px;
+	font-weight: 30;
+}
+
+.whyus ul {
+	list-style: none;
+	padding-left: 0;
+	margin-right: 70px;
+}
+
+.whyus ul li {
+	color: white;
+}
+
+.whyus ul li i {
+	margin-right: 10px;
+}
+
+.gallery {
+	display: flex;
+}
+
+.prvi {
+	background-image: url("images/about-us-carousel-1.jpg");
+	width: 20%;
+	background-size: cover;
+	height: 150px;
+	position: relative;
+}
+
+.drugi {
+	background-image: url("images/about-us-carousel-2.jpg");
+	width: 20%;
+	background-size: cover;
+	position: relative;
+}
+
+.treci {
+	background-image: url("images/about-us-carousel-3.jpg");
+	width: 20%;
+	background-size: cover;
+	position: relative;
+}
+
+.cetvrti {
+	background-image: url("images/about-us-carousel-4.jpg");
+	width: 20%;
+	background-size: cover;
+	position: relative;
+}
+
+.peti {
+	background-image: url("images/about-us-carousel-5.jpg");
+	width: 20%;
+	background-size: cover;
+	position: relative;
+}
+
+.zavesa {
+	position: absolute;
+	background-color: rgba(0,0,0,0.7);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: all 0.4s ease;
+}
+
+.prvi:hover .zavesa{
+	opacity: 1;
+}
+
+.prvi p {
+	color: #f4544c;
+	font-size: 90px;
+	text-align: center;
+	margin:0;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.prvi:hover p {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+.drugi:hover .zavesa{
+	opacity: 1;
+}
+
+.drugi p {
+	color: #f4544c;
+	font-size: 90px;
+	text-align: center;
+	margin:0;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.drugi:hover p {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+.treci:hover .zavesa{
+	opacity: 1;
+}
+
+.treci p {
+	color: #f4544c;
+	font-size: 90px;
+	text-align: center;
+	margin:0;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.treci:hover p {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+.cetvrti:hover .zavesa{
+	opacity: 1;
+}
+
+.cetvrti p {
+	color: #f4544c;
+	font-size: 90px;
+	text-align: center;
+	margin:0;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.cetvrti:hover p {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+.peti:hover .zavesa{
+	opacity: 1;
+}
+
+.peti p {
+	color: #f4544c;
+	font-size: 90px;
+	text-align: center;
+	margin:0;
+	opacity: 0;
+	position: relative;
+	z-index: 5;
+}
+
+.peti:hover p {
+	opacity: 1;
+	transition: all 0.4s ease;
+}
+
+/*CLASSES*/
+
+.classeskartice {
+	background-color: #0a0a0a;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 50px 80px;
+}
+
+.classeskartice h4{
+	margin-top: 0;
+	color: #0a0a0a;
+	font-size: 20px;
+}
+
+.classeskartice p{
+	color: #2e353e;
+	font-size: 15px;
+}
+
+.classeskartice a{
+	background-color: #f4544c;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.fitness {
+	width: 30%;
+}
+
+.yoga {
+	width: 30%;
+}
+
+.functional {
+	width: 30%;
+}
+
+.spin {
+	width: 30%;
+}
+
+.zumba {
+	width: 30%;
+}
+
+.conditioning {
+	width: 30%;
+}
+
+.fitness div,
+.yoga div,
+.functional div,
+.spin div,
+.zumba div,
+.conditioning div {
+	background-color: white;
+	text-align: center;
+}
+
+.fitness .slika {
+	background-image: url("images/classes-1.jpg");
+	height: 190px;
+	background-size: cover;
+}
+
+
+.yoga .slika{
+	background-image: url("images/classes-2.jpg");
+	height: 190px;
+	background-size: cover;
+}
+
+.functional .slika {
+	background-image: url("images/classes-3.jpg");
+	height: 190px;
+	background-size: cover;
+}
+
+.spin .slika {
+	background-image: url("images/classes-4.jpg");
+	height: 190px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.zumba .slika {
+	background-image: url("images/classes-5.jpg");
+	height: 190px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.conditioning .slika {
+	background-image: url("images/classes-6.jpg");
+	height: 190px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+/*STAFF*/
+
+.jessica,
+.barbara,
+.monica,
+.rachel,
+.angelina,
+.judy,
+.bob,
+.john {
+	width: 25%;
+}
+
+.rachel div,
+.angelina div,
+.judy div,
+.bob div,
+.john div,
+.jessica div,
+.barbara div,
+.monica div {
+	background-color: white;
+	text-align: center;
+}
+
+.angelina div,
+.rachel div,
+.judy div,
+.john div,
+.jessica div,
+.barbara div,
+.monica div,
+.bob div {
+	margin-right: 20px;
+}
+
+.jessica .slika {
+	background-image: url("images/staff-1.jpg");
+	height: 300px;
+	background-size: cover;
+}
+
+
+.barbara .slika{
+	background-image: url("images/staff-2.jpg");
+	height: 300px;
+	background-size: cover;
+}
+
+.monica .slika {
+	background-image: url("images/staff-3.jpg");
+	height: 300px;
+	background-size: cover;
+}
+
+.rachel .slika {
+	background-image: url("images/staff-4.jpg");
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+	margin-top: 0;
+}
+
+.angelina .slika {
+	background-image: url("images/staff-5.jpg");
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.judy .slika {
+	background-image: url("images/staff-6.jpg");
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.bob .slika {
+	background-image: url("images/staff-7.jpg");
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.john .slika {
+	background-image: url("images/staff-8.jpg");
+	height: 300px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+/*PRICING*/
+
+.pricing {
+	background-color: #0a0a0a;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 50px 80px;
+}
+
+.pricing a {
+	background-color: #f4544c;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.yearly,
+.monthly,
+.personal {
+	width: 30%;
+	background-color: white;
+	text-align: center;
+}
+
+.pricing ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 30px 0;
+}
+
+.pricing h4 {
+	font-size: 40px;
+	margin-bottom: 0; 
+}
+
+.cena {
+	margin-top: 0;
+	color: #f4544c;
+	font-size: 20px;
+}
+
+/*CONTACT*/
+
+.whyus1 {
+	background-color: #0a0a0a;
+	padding: 30px;
+	display: flex;
+}
+
+.whyus1 .sadrzaj {
+	width: 50%;
+}
+
+.whyus1 .liste1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.whyus1 h2{
+	color: white;
+	font-size: 25px;
+	font-weight: 30;
+}
+
+.whyus1 ul {
+	list-style: none;
+	padding-left: 0;
+	margin-right: 70px;
+	margin-top: 16;
+}
+
+.whyus1 ul li {
+	color: white;
+}
+
+.whyus1 ul li i {
+	margin-right: 10px;
+}
+
+.sendus {
+	margin-right: 100px;
+	margin-top: 16px;
+}
+
+.sendus h2 {
+	margin-top: 0;
+}
+
+.sendus input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;  
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+.forma1 {
+	margin-top: 16;
+}
+
+.whyus1 a{
+	background-color: #f4544c;
+	padding: 10px;
+	margin-bottom: 30px;
+}
